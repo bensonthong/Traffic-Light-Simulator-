@@ -606,7 +606,7 @@ void update_LCD_color(char direction, char color)
         drawCircle(XGRN, Circle_Y, Circle_Size, ST7735_GREEN);  
     }
           
-    // put code here
+
     if (color == Color_Yellow)     //if the color is red only fill the red circle with red
     {
         fillCircle(XRED, Circle_Y, Circle_Size, ST7735_BLACK);
@@ -637,7 +637,7 @@ void update_LCD_count(char direction, char count)
         drawtext(XCNT, EW_Count_Y, EW_Count, EW_Color, ST7735_BLACK, TS_2);                
         break;
       
-    // put code here
+
         case EWLT:        
         EWLT_Count[0] = count/10  + '0';
         EWLT_Count[1] = count%10  + '0';
@@ -667,7 +667,7 @@ void update_LCD_PED_Count(char direction, char count)
         PED_EW_Count[1] = count%10  + '0';          // PED Lower
         drawtext(PED_Count_X, PED_EW_Count_Y, PED_EW_Count, EW_Color, ST7735_BLACK, TS_2);        
         break;
-      // put code here  
+
        case NS:       
         PED_NS_Count[0] = count/10  + '0';          // PED count upper digit
         PED_NS_Count[1] = count%10  + '0';          // PED Lower
@@ -690,7 +690,7 @@ void update_LCD_misc()
     SW_NSPED = NS_PED;
     SW_NSLT = NS_LT;
     
-       // put code here  
+
     if(SW_MODE == 0) SW_MODE_Txt[0] = 'N'; else SW_MODE_Txt[0] = 'D';
     if (SW_EWPED == 0) SW_EWPED_Txt[0] = '0'; else SW_EWPED_Txt[0] = '1';      // Set Text at bottom of screen to switch states
     if (SW_EWLT == 0) SW_EWLT_Txt[0] = '0'; else SW_EWLT_Txt[0] = '1';      // Set Text at bottom of screen to switch states

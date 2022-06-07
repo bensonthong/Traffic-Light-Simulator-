@@ -1,12 +1,12 @@
 # Traffic Light Simulator
 
 ## Project Description
-<br/> This course project was built in response to an Introduction to Microcontroller course. The application showcases the language of C and the pic18f series microcontroller.  </br>
+<br/> This course project was built in response to an Introduction to Microcontroller course. The application showcases the language of C and the PIC18F series microcontroller.  </br>
 
 <br/>The traffic light simulator provides a systematic understanding of how a real life traffic light would function and is reflected on a TFT display. The simulator uses dip switches to simulate car waiting in a particular direction (North and South,  East and West, East West Left Turn, North South Left Turn). Furthermore, the simulator provides a functional pedestrian crossing the road to allow pedestrian to cross the road based on LED and timer displayed on the LCD. Each traffic light in the particular direction will have a specific time for each direction as well as a specified mode called Day and Night mode and it is determined using a photo sensor. Night mode will be enabled when no light is detected and will shut off all Pedestrian access. Lastly, if a traffic light malfunctions, it will operate under emergency mode in which all directions of the traffic light will be flashing red to notify drivers to follow the guidelines of a 4-way traffic stop. </br>
 
 ### Hardware Used
-- pic18f4820 microcontroller development board
+- PIC18F4820 microcontroller development board
 - MPLAB PICkit 4
 - ST7735 TFT LCD Display
 - RGB LED

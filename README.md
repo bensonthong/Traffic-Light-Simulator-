@@ -21,9 +21,9 @@
 - MPLAB X IDE v4.20 was used to program the PICkit4 in order to debug the hardware and software for the pic18f4820 microcontroller. The code was built using C and can be found in the path ```Code/Lab9.c```
 - Concepts used for this project to work: Implementation of LCD, System Timer, External Interrupts, and Logic of Traffic Lights
   - The implementation of the LCD is to shows the user how the traffic light operates under a particular circumstance and is useful for debugging purposes as it allows a visual display to troubleshoot. It is implemented by utilizing a created TFT C file located in ```Code/ST7735_TFT.c``` that provides functions to create the graphics for the traffic light. 
-  - a System timer is used by utilizing the INT0CON, T0CON, TMRL, and TMRH registers to generate a time of 1 second. 
+  - A system timer is used by utilizing the INT0CON, T0CON, TMRL, and TMRH registers to generate a time of 1 second. 
   - An external interrupt is used to generate the emergency mode when a traffic light malfunctions.
-  - Logic of a Traffic light is needed to built a safe and real-time operating traffic light. 
+  - Logic of a traffic light is needed to built a safe and real-time operating traffic light. 
 
 # Setup
 ![](Code/circuitsetup.PNG)

@@ -26,10 +26,10 @@
   - Logic of a traffic light is needed to built a safe and real-time operating traffic light. 
 
 # Setup
-![](pictures/circuitsetup.PNG)
+![](pictures/circuitsetup.png)
 
 # LCD display of the simulator
-![](pictures/circuitsetup2.PNG)
+![](pictures/circuitsetup2.png)
 
 ## Circuit Schematic
-![](pictures/trafficschem.PNG)
+![](pictures/trafficschem.png)
